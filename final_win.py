@@ -19,7 +19,3 @@ class FinalWin(QWidget):
         self.layout_line.addWidget(self.index_text, alignment=Qt.AlignCenter)
         self.layout_line.addWidget(self.workheart_text, alignment=Qt.AlignCenter)
         self.setLayout(self.layout_line)
-
-app = QApplication([])
-m = FinalWin()
-app.exec_()
